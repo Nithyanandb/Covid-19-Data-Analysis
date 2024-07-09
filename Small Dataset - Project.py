@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-data = pd.read_csv(r"C:\Users\nithy\Documents\GitHub\Data Analysis\Dataset.csv")
+data = pd.read_csv(r"C:\Users\nithy\Documents\GitHub\Covid-19-Data-Analysis\Dataset.csv")
 def print_box(text):
     length = len(text)
     print("+" + "-" * (length - 7) + "+")
